@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Practice10</string>
+    <string name="Orient">Orient</string>
+    <string name="Gravity">Gravity</string>
+    <string name="textview1">ориентация -></string>
+    <string name="textview3">выравнивание -></string>
 </resources>
