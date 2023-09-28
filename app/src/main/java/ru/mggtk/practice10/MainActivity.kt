@@ -10,11 +10,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //setTitle("FrameLayout")
-        setTitle("LienarLayout")
-        //setTitle("TableLayout")
+        //setTitle("LienarLayout")
+        setTitle("TableLayout")
         //setContentView(R.layout.framelayout)
-        setContentView(R.layout.linerlayout)
-        //setContentView(R.layout.tablelayout)
+        //setContentView(R.layout.linerlayout)
+        setContentView(R.layout.tablelayout)
 
     }
 
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
     }*/
 
-    fun clickLinearLayout(view: View){
+    /*fun clickLinearLayout(view: View){
         //Values
         val button1 = findViewById<Button>(R.id.button1)
         val button2 = findViewById<Button>(R.id.button2)
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         button6.setOnClickListener {
             textView2.text = "По правому краю"
         }
-    }
+    }*/
 
 
 }
