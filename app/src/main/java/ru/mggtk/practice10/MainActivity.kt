@@ -9,16 +9,16 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTitle("FrameLayout")
-        //setTitle("LienarLayout")
+        //setTitle("FrameLayout")
+        setTitle("LienarLayout")
         //setTitle("TableLayout")
-        setContentView(R.layout.framelayout)
-        //setContentView(R.layout.linerlayout)
+        //setContentView(R.layout.framelayout)
+        setContentView(R.layout.linerlayout)
         //setContentView(R.layout.tablelayout)
 
     }
 
-    fun clickVisibleChange(view: View){
+    /*fun clickVisibleChange(view: View){
         val button1 = findViewById<Button>(R.id.button1)
         val button2 = findViewById<Button>(R.id.button2)
 
@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
             button2.visibility = View.VISIBLE
             button1.visibility = View.INVISIBLE
         }
-    }
+    }*/
 
-    /*fun clickLinearLayout(view: View){
+    fun clickLinearLayout(view: View){
         //Values
         val button1 = findViewById<Button>(R.id.button1)
         val button2 = findViewById<Button>(R.id.button2)
@@ -68,8 +68,7 @@ class MainActivity : AppCompatActivity() {
         button6.setOnClickListener {
             textView2.text = "По правому краю"
         }
-
-    }*/
+    }
 
 
 }
