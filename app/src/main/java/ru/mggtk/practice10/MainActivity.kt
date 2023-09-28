@@ -9,12 +9,12 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setTitle("FrameLayout")
+        setTitle("FrameLayout")
         //setTitle("LienarLayout")
-        setTitle("TableLayout")
-        //setContentView(R.layout.framelayout)
+        //setTitle("TableLayout")
+        setContentView(R.layout.framelayout)
         //setContentView(R.layout.linerlayout)
-        setContentView(R.layout.tablelayout)
+        //setContentView(R.layout.tablelayout)
 
     }
 
