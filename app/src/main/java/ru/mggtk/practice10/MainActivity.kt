@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    /*fun clickVisibleChange(view: View){
+    fun clickVisibleChange(view: View){
         val button1 = findViewById<Button>(R.id.button1)
         val button2 = findViewById<Button>(R.id.button2)
 
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             button2.visibility = View.VISIBLE
             button1.visibility = View.INVISIBLE
         }
-    }*/
+    }
 
     /*fun clickLinearLayout(view: View){
         //Values
