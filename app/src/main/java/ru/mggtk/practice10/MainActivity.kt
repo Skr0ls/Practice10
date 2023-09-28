@@ -9,8 +9,13 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTitle("LienarLayout")
-        setContentView(R.layout.linerlayout)
+        //setTitle("FrameLayout")
+        //setTitle("LienarLayout")
+        setTitle("TableLayout")
+        //setContentView(R.layout.framelayout)
+        //setContentView(R.layout.linerlayout)
+        setContentView(R.layout.tablelayout)
+
     }
 
     /*fun clickVisibleChange(view: View){
@@ -28,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
     }*/
 
-    fun clickLinearLayout(view: View){
+    /*fun clickLinearLayout(view: View){
         //Values
         val button1 = findViewById<Button>(R.id.button1)
         val button2 = findViewById<Button>(R.id.button2)
@@ -36,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         val button4 = findViewById<Button>(R.id.button4)
         val button5 = findViewById<Button>(R.id.button5)
         val button6 = findViewById<Button>(R.id.button6)
+        
         val textView1 = findViewById<TextView>(R.id.textView2)
         val textView2 = findViewById<TextView>(R.id.textView4)
         //Clicks
@@ -63,6 +69,7 @@ class MainActivity : AppCompatActivity() {
             textView2.text = "По правому краю"
         }
 
-    }
+    }*/
+
 
 }
